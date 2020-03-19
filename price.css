@@ -1,0 +1,164 @@
+body {
+    background-color: #f5f2ef;
+    background-image: none;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+}
+
+.container {
+    margin-top: 0;
+    background-color: transparent;
+}
+
+.main-menu .current-page::after {
+    content: "";
+    display: block;
+    border-bottom: 4px #fff solid;
+    position: relative;
+    bottom: 4px;
+}
+
+.main-menu a img {
+    vertical-align: middle;
+    position: relative;
+    bottom: 2px;
+}
+
+.breadcrumbs {
+    margin-bottom: 55px;
+}
+
+.breadcrumbs ul {
+    font-size: 0;
+    padding: 0;
+}
+
+.breadcrumbs ul li {
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 40px;
+    position: relative;
+}
+
+.breadcrumbs ul li::after {
+    content: "";
+    display: block;
+    border: 5px #000 solid;
+    position: absolute;
+    right: -25px;
+    top: 8px;
+    transform: rotate(45deg);
+}
+
+.breadcrumbs ul li:last-child {
+    margin-right: 0;
+}
+
+.breadcrumbs ul li:last-child::after {
+    display: none;
+}
+
+.breadcrumbs ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.breadcrumbs ul li:last-child {
+    color: #aba9a7;
+}
+
+.main-content .header {
+    text-align: center;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.main-content h2 {
+    display: inline-block;
+    padding: 0 25px;
+    background-color: #f5f2ef;
+    margin: 0;
+    vertical-align: middle;
+
+}
+
+.main-content .header::before {
+    content: "";
+    display: block;
+    border-top: 1px #000 solid;
+    border-bottom: 1px #000 solid;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: -1;
+}
+
+.products-prices {
+    margin-bottom: 50px;
+}
+
+.products {
+    float: left;
+}
+
+.products .brands {
+    padding: 0 0 0 20px;
+    list-style: none;
+}
+
+.products .brands li {
+    position: relative;
+    /*line-height: 2.5rem;*/
+    margin: 1rem 0;
+}
+
+.products .brands li::before {
+    content: "";
+    display: block;
+    border: 4px #000 solid;
+    position: absolute;
+    top: 0.5rem;
+    left: -20px;
+    transform: rotate(45deg);
+}
+
+.prices {
+    float: right;
+    min-width: 460px;
+}
+
+.prices .prices-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.prices .prices-table td {
+    border: 2px #000 solid;
+    width: 50%;
+    padding: 10px 15px;
+}
+
+.prices .prices-table td:last-child {
+    text-align: center;
+}
+
+.about-us p {
+    float: left;
+    width: 380px;
+    margin-top: 0;
+}
+
+.about-us .description-1 {
+    margin-right: 100px;
+}
+
+.about-us .description-2 {
+    margin-right: 80px;
+}
+
+.main-footer {
+    margin-top: 0;
+}
